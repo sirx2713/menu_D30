@@ -8,17 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		2E9FAE4A2BAADECA00209EB9 /* menu_D30App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9FAE492BAADECA00209EB9 /* menu_D30App.swift */; };
-		2E9FAE4C2BAADECA00209EB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9FAE4B2BAADECA00209EB9 /* ContentView.swift */; };
+		2E9FAE4C2BAADECA00209EB9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9FAE4B2BAADECA00209EB9 /* MainView.swift */; };
 		2E9FAE4E2BAADECC00209EB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FAE4D2BAADECC00209EB9 /* Assets.xcassets */; };
 		2E9FAE512BAADECC00209EB9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FAE502BAADECC00209EB9 /* Preview Assets.xcassets */; };
+		2E9FAE582BAADF0D00209EB9 /* SushiMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9FAE572BAADF0D00209EB9 /* SushiMenuView.swift */; };
+		2E9FAE5A2BAADFD100209EB9 /* SushiSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9FAE592BAADFD100209EB9 /* SushiSheetView.swift */; };
+		2E9FAE5E2BAADFFE00209EB9 /* SushiMenu_Logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9FAE5D2BAADFFE00209EB9 /* SushiMenu_Logic.swift */; };
+		2E9FAE602BAAF45A00209EB9 /* SushiData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FAE5F2BAAF45A00209EB9 /* SushiData.json */; };
+		2E9FAE622BAAF46F00209EB9 /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9FAE612BAAF46F00209EB9 /* DataServices.swift */; };
+		2E9FAE642BAB0E6300209EB9 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9FAE632BAB0E6300209EB9 /* GalleryView.swift */; };
+		2E9FAE662BAB0E7F00209EB9 /* GalleryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9FAE652BAB0E7F00209EB9 /* GalleryDetailView.swift */; };
+		2E9FAE682BAB0EA000209EB9 /* Gallery_Logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9FAE672BAB0EA000209EB9 /* Gallery_Logic.swift */; };
+		2E9FAE6A2BAB621800209EB9 /* galleryData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2E9FAE692BAB621800209EB9 /* galleryData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2E9FAE462BAADECA00209EB9 /* menu_D30.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = menu_D30.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E9FAE492BAADECA00209EB9 /* menu_D30App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menu_D30App.swift; sourceTree = "<group>"; };
-		2E9FAE4B2BAADECA00209EB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2E9FAE4B2BAADECA00209EB9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		2E9FAE4D2BAADECC00209EB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E9FAE502BAADECC00209EB9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2E9FAE572BAADF0D00209EB9 /* SushiMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiMenuView.swift; sourceTree = "<group>"; };
+		2E9FAE592BAADFD100209EB9 /* SushiSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiSheetView.swift; sourceTree = "<group>"; };
+		2E9FAE5D2BAADFFE00209EB9 /* SushiMenu_Logic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiMenu_Logic.swift; sourceTree = "<group>"; };
+		2E9FAE5F2BAAF45A00209EB9 /* SushiData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SushiData.json; sourceTree = "<group>"; };
+		2E9FAE612BAAF46F00209EB9 /* DataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
+		2E9FAE632BAB0E6300209EB9 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		2E9FAE652BAB0E7F00209EB9 /* GalleryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryDetailView.swift; sourceTree = "<group>"; };
+		2E9FAE672BAB0EA000209EB9 /* Gallery_Logic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gallery_Logic.swift; sourceTree = "<group>"; };
+		2E9FAE692BAB621800209EB9 /* galleryData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = galleryData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +70,18 @@
 			isa = PBXGroup;
 			children = (
 				2E9FAE492BAADECA00209EB9 /* menu_D30App.swift */,
-				2E9FAE4B2BAADECA00209EB9 /* ContentView.swift */,
+				2E9FAE4B2BAADECA00209EB9 /* MainView.swift */,
 				2E9FAE4D2BAADECC00209EB9 /* Assets.xcassets */,
 				2E9FAE4F2BAADECC00209EB9 /* Preview Content */,
+				2E9FAE572BAADF0D00209EB9 /* SushiMenuView.swift */,
+				2E9FAE592BAADFD100209EB9 /* SushiSheetView.swift */,
+				2E9FAE5D2BAADFFE00209EB9 /* SushiMenu_Logic.swift */,
+				2E9FAE612BAAF46F00209EB9 /* DataServices.swift */,
+				2E9FAE5F2BAAF45A00209EB9 /* SushiData.json */,
+				2E9FAE692BAB621800209EB9 /* galleryData.json */,
+				2E9FAE632BAB0E6300209EB9 /* GalleryView.swift */,
+				2E9FAE652BAB0E7F00209EB9 /* GalleryDetailView.swift */,
+				2E9FAE672BAB0EA000209EB9 /* Gallery_Logic.swift */,
 			);
 			path = menu_D30;
 			sourceTree = "<group>";
@@ -126,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E9FAE512BAADECC00209EB9 /* Preview Assets.xcassets in Resources */,
+				2E9FAE602BAAF45A00209EB9 /* SushiData.json in Resources */,
+				2E9FAE6A2BAB621800209EB9 /* galleryData.json in Resources */,
 				2E9FAE4E2BAADECC00209EB9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +166,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E9FAE4C2BAADECA00209EB9 /* ContentView.swift in Sources */,
+				2E9FAE682BAB0EA000209EB9 /* Gallery_Logic.swift in Sources */,
+				2E9FAE662BAB0E7F00209EB9 /* GalleryDetailView.swift in Sources */,
+				2E9FAE642BAB0E6300209EB9 /* GalleryView.swift in Sources */,
+				2E9FAE5E2BAADFFE00209EB9 /* SushiMenu_Logic.swift in Sources */,
+				2E9FAE4C2BAADECA00209EB9 /* MainView.swift in Sources */,
 				2E9FAE4A2BAADECA00209EB9 /* menu_D30App.swift in Sources */,
+				2E9FAE622BAAF46F00209EB9 /* DataServices.swift in Sources */,
+				2E9FAE582BAADF0D00209EB9 /* SushiMenuView.swift in Sources */,
+				2E9FAE5A2BAADFD100209EB9 /* SushiSheetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,7 @@ import SwiftUI
 struct menu_D30App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
